@@ -1,0 +1,155 @@
+*{
+    font-family: Work Sans;
+}
+
+/* nav styles */
+.nav-container, .nav-title, .nav-menu ul, .nav-follow, .nav-menu{
+    display: flex;
+}
+.nav-container{
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-menu ul li{
+    list-style: none;
+}
+.nav-menu a{
+    text-decoration: none;
+    margin-right: 15px;
+    color: #3C354F;
+    text-align: center;  
+    font-size: 18px;
+    font-weight: 500;
+    
+   
+}
+.nav-logo{
+    width: 50px;
+    object-fit:contain; 
+}
+.nav-title{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    margin-left: 10px;
+    
+}
+span{
+  
+    background-image: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    color: transparent;
+    -webkit-background-clip: text;
+}
+
+.nav-follow {
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    background-color: rgba(11, 2, 35, 0.10);
+    padding: 0px 7px;
+    margin-right: 15px;
+      }
+
+    /* banner styles */
+    .banner-container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 50px;
+        
+    }
+    .banner-img{
+        width: 600px;
+       padding-right: 80px;
+    }
+    .banner-content{
+        background-image: url('images/Group\ 14.png');
+        background-size: contain;
+        padding: 100px;
+        text-align: left;
+    }
+    .banner-heading{
+        color: #0B0223;
+        text-align: center;
+        font-family: Work Sans;
+        font-size: 40px;
+        font-weight: 600; 
+    }
+    .banner-title{
+        font-family: Work Sans;
+        font-size: 65px;
+        font-weight: 800;
+        background-image: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .sign-in-button{
+        color: #FFF;
+        font-family: Work Sans;
+        font-size: 18px;      
+        font-weight: 600;
+        border-radius: 48px;
+        background-image: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+        border: none;
+        padding:20px 30px;
+        margin-right: 10px;
+        margin-left: -10px;
+        
+    }
+    .go-rogue-button{
+        color: #FFF;
+        font-family: Work Sans;
+        font-size: 18px;      
+        font-weight: 600;
+        border-radius: 48px;
+        background-color: #4EC5F7;
+        border: none;
+        padding:20px 30px;
+        
+    }
+    /* online games container styles */
+    .online-games-container{
+      text-align: center;
+      margin-top: 100px;
+    }
+    .card-container{
+        display: grid;
+        grid-template-columns: 300px 300px 300px 300px;
+       margin-left: 50px;
+       
+
+    }
+    .cards-image{
+       width: 270px;
+       height: 270px;
+    }
+    .cards-title{
+        width: 90%;
+        color: #534C64;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 500;
+
+    }
+    .section-title{
+        color: #0B0223;
+        font-size: 48px;      
+        font-weight: 700;       
+    }
+    .funny-videos{
+        background-image: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-family: Work Sans;
+        font-size: 48px;
+        font-weight: 700;
+    }
+    .section-description{
+        color: #534C64;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 400;
+    }
+    

@@ -1,0 +1,39 @@
+@media screen and (max-width: 576px){
+    .nav-container, .nav-menu{
+     
+        flex-direction: column;
+    }
+    ul{
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+ }
+    .banner-container{
+        flex-direction: column-reverse;
+    }
+    .banner-img{
+        width: 80%;
+        margin-left: 50px;
+    }
+    .banner-content{
+       padding: 30px;
+       width: 80%;
+       text-align: flex-start;
+       margin-left: 50px;   
+       
+    }
+   .banner-title{
+        font-size: 50px;
+    }
+    .banner-heading{
+        font-size: 20px;
+        text-align: left;
+    }
+    .sign-in-button, .go-rogue-button{
+        padding: 15px 35px;
+        font-size: 14px;
+    }
+    .banner-description{
+        color: #534C64;
+    }
+}
