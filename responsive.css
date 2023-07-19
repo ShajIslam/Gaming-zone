@@ -23,7 +23,7 @@
        padding: 30px;
        width: 80%;
        text-align: flex-start;
-       margin-left: 205px;   
+       margin-left: 165px;   
        
     }
    .banner-title{
@@ -47,12 +47,12 @@
     }
     .content-title{
         width: 100%;
-     margin-left: -50px;
+        margin-left: 20px;
 
     }
     .games-img1 {
         width: 300px;
-        margin-left: 205px;
+        margin-left: 110px;
         
     }
     .games-img2 {
@@ -61,4 +61,23 @@
         top: -95px;
         left: 315px;
     }
+    .play-games-container {
+        flex-direction: column-reverse;
+     }
+     .games-content{
+        width: 100%;
+     }
+     .games-container{
+       
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap:10px;
+        padding: 0;
+        background-image: none;
+     }
+     .games-card{
+        padding: 2px 5px;
+
+
+     }
 }
