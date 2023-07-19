@@ -86,7 +86,7 @@
     margin-right: 10px;
    }
    .footer-container{
-    width: 132%;
+    width: 140%;
    }
    .list-item1{
     display: grid;
@@ -94,13 +94,14 @@
     margin-left: -140px;
     margin-top: 50px;
     
+    
    }
    .icon-items{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     padding: 50px 0px;
     margin-left: -100px;
-    grid-column-gap: 0px;
+    
    
    }
    .terms-item{
@@ -109,6 +110,64 @@
     margin-left: -100px;
     padding: 20px 0px;
    }
+
+   /* overlay bonus styles */
+   .overlay{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    opacity: 0;
+    transition: opacity 0.4s ease-in-out;
+    background-color: black;
+    cursor: pointer;
+    width: 270px;
+    height: 270px;
+}
+.icon {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+  }
+  .icon i {
+    color: #F948B2;
+  }
+
+.cards{
+    position: relative;
+}
+.content {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #F948B2;
+    z-index: 2;
+    opacity: 0;
+    transition: opacity 0.4s ease-in-out;
+  }
+
+  .cards:hover .content {
+    opacity: 1;
+  }  
+.cards:hover .overlay{
+    opacity: 0.8;
+}
+
+/* Bonus styles */
+
+.games-card:hover {
+    border: 2px solid #F948B2;
+
+}
+
+.games-card:hover>h3 {
+    color: #F948B2;
+}
    
 
 }

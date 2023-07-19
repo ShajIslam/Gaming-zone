@@ -1,0 +1,27 @@
+@media screen and (min-width: 577px) and (max-width: 992px){
+   .nav-container{
+   width: 1300px;
+   }
+    .banner-img{
+    width: 750px;
+   }
+
+   .online-games-container{
+    width: 100%;
+    margin-left: 350px;
+   }
+   .games-container{
+    background: none;
+   grid-template-columns: repeat(6,1fr);
+    
+   }
+   .footer-container{
+    width: 200%;
+   }
+   .sign-in-button{
+    margin-bottom: 20px;
+   }
+   .go-rogue-button{
+    margin-left: -18px;
+   }
+}
