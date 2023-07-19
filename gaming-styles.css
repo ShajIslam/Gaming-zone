@@ -231,38 +231,6 @@ span {
 
 }
 
-/* careers section styles */
-/* .careers-content{
-        width: 50%;
-    }
-    .careers-section {
-        background-image: none;
-    }
-    .careers-container{
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        background-color: rgba(255, 255, 255, 0.10); //background-color is no showing
-        margin-top: 50px;
-    }
-    .group-img{
-        width: 50%;
-        
-
-    }
-    .ul-container{
-        display: flex;
-        
-    }
-    .ul-container li{
-        list-style: none;
-        
-    }
-    .careers-content{
-        background-image: url('images/Group\ 14.png');
-       background-size: contain;
-       padding: 60px;
-    } */
 
 /* Card Styles */
 .games-card {
@@ -436,8 +404,4 @@ span {
 .ul-container {
     margin-left: 70px;
     text-align: center;
-}
-/* button hover */
-.sign-in-button:hover{
- background-color: #068FFF;
 }
