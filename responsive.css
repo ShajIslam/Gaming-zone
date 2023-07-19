@@ -74,10 +74,41 @@
         gap:10px;
         padding: 0;
         background-image: none;
+        padding: 0px 0px 100px 0px;
      }
      .games-card{
         padding: 2px 5px;
-
-
      }
+/* footer */
+   .list-item1, .icon-items,.terms-item{
+    margin: 0 auto;
+    gap:50px;
+    margin-right: 10px;
+   }
+   .footer-container{
+    width: 132%;
+   }
+   .list-item1{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-left: -140px;
+    margin-top: 50px;
+    
+   }
+   .icon-items{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 50px 0px;
+    margin-left: -100px;
+    grid-column-gap: 0px;
+   
+   }
+   .terms-item{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: -100px;
+    padding: 20px 0px;
+   }
+   
+
 }
