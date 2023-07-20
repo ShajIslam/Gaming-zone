@@ -12,11 +12,11 @@
    }
    .games-container{
     background: none;
-   grid-template-columns: repeat(6,1fr);
+   grid-template-columns: repeat(3,1fr);
     
    }
    .footer-container{
-    width: 200%;
+    width: 100%;
    }
    .sign-in-button{
     margin-bottom: 20px;
